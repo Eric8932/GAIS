@@ -1,0 +1,20 @@
+{
+ "gais_think": {
+    "file_name": "gais_think.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "tools": "tools"
+    }
+  },
+  "gais_nonthink": {
+    "file_name": "gais_nonthink.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "tools": "tools"
+    }
+  }
+ 
+ 
+}
