@@ -1,6 +1,30 @@
-# Scaling Agentic Capabilities via Grounded Interaction Synthesis
+<div align="center">
 
-This repository contains the official implementation for our work **"Scaling Agentic Capabilities via Protocol-Grounded Data Synthesis" (GAIS)**.
+<h1>
+    Scaling Agentic Capabilities via Grounded Interaction Synthesis
+    <br><br>
+    <b>KDD 2026</b>
+    <br><br>
+    <a href="https://arxiv.org/abs/ARXIV_ID" target="_blank">
+      <img src="https://img.shields.io/badge/Paper%20ArXiv-GAIS-b31b1b.svg" alt="Paper ArXiv: GAIS">
+    </a>
+  </h1>
+</div>
+
+# Grounded Agentic Interaction Synthesis (GAIS)
+
+This repository contains the official implementation for our work **"Scaling Agentic Capabilities via Grounded Interaction Synthesis"**.
+
+## 💡 Introduction
+
+Unlike previous data synthesis paradigms that rely on unconstrained LLM generation, our work introduces a structural grounding mechanism to overcome the biased random sampling inherent in current agentic datasets. We discover and demonstrate that:
+
+1. Existing tool-learning datasets—whether sourced from public APIs or synthesized entirely by LLMs—suffer from severe functional homogenization, predominantly consisting of simple read-only retrieval tools and shallow interaction chains lacking logical dependencies.
+2. Grounding environment construction in real-world Model Context Protocol (MCP) servers significantly enhances functional diversity and operational difficulty, effectively breaking the retrieval-centric bias of LLMs without incurring prohibitive deployment costs.
+3. Explicitly planning task execution paths around complex tool dependencies and injecting adversarial domain policies successfully translates environmental depth into high-fidelity, cognitively challenging agentic trajectories.
+
+Based on these findings, we propose **GAIS (Grounded Agentic Interaction Synthesis)**, a scalable framework that automates the construction of diverse protocol-anchored environments and structure-guided tasks.
+
 
 ## 🛠 Setup
 
