@@ -66,7 +66,3 @@ We evaluate the agentic capabilities of the trained models across three major to
 This repository is built upon **[LlamaFactory](https://github.com/hiyouga/LlamaFactory)**. We sincerely thank the authors for their wonderful work.
 
 
-
-```
-
-```
