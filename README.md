@@ -14,12 +14,10 @@ To set up the environment, please refer to the installation instructions provide
 
 ## 📂 Data Preparation
 
-We provide training versions of our GAIS dataset in both non-thinking and thinking formats:
+Please download the following files from [WenHang/GAIS](https://huggingface.co/datasets/WenHang/GAIS) and place them in the `data/` directory of this repository:
 * `data/gais_nonthink.json`
 * `data/gais_think.json`
 
-Additionally, the original version of the non-thinking data is available at `data/original/gais_nonthink_ori.json`.
-You need to unzip the file.
 
 ### Dataset Field Definitions
 Each sample in the original data contains the following fields:
