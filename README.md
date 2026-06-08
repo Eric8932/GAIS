@@ -86,7 +86,22 @@ We evaluate the agentic capabilities of the trained models across three major to
 [!NOTE] We have modified the evaluation code for these benchmarks to support both non-thinking and thinking model variants.
 
 
-## 💐 Acknowledgments
+## 📖 Citation
+If you find this work useful, please kindly star the repo and and cite the paper below. For questions, contact wenhangshi@ruc.edu.cn, or open an issue. Thank you!
+
+```bibtex
+@article{shi2026scaling,
+  title={Scaling Agentic Capabilities via Grounded Interaction Synthesis},
+  author={Shi, Wenhang and Dong, Jinhao and Chen, Yiren and Zhao, Zhe and Bian, Shuqing and Lu, Wei and Du, Xiaoyong},
+  journal={arXiv preprint arXiv:2606.02001},
+  year={2026}
+}
+```
+
+
+
+
+## 💐 Acknowledgment
 This repository is built upon **[LlamaFactory](https://github.com/hiyouga/LlamaFactory)**. We sincerely thank the authors for their wonderful work.
 
 
